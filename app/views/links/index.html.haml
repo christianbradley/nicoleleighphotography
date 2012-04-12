@@ -1,0 +1,22 @@
+.text-wrap
+  .text-content
+    %h1 Links
+
+    - @links.each do |link|
+      %h2= link.name
+      - if link.description
+        %p= link.description
+      %dl.contact-info
+        - if link.phone.present?
+          %dt Phone
+          %dd= link.phone
+        - if link.website.present?
+          %dt Website
+          %dd= link_to link.website, link.website
+        - if link.email.present?
+          %dt Email
+          %dd= link_to link.email, "mailto:#{link.email}"
+        - if link.address.present?
+          %dt Address
+          %dd= link.address
+

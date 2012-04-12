@@ -1,0 +1,10 @@
+- form_for [:admin,@testimonial] do |f|
+  - unless @testimonial.errors.empty? 
+    .errors= error_messages_for "testimonial"
+  .form-row
+    = f.label :name
+    = f.text_field :name
+  .form-row
+    = f.label :testimony
+    = f.text_area :testimony
+  = f.submit

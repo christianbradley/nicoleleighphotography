@@ -1,0 +1,21 @@
+<!html>
+%html
+  %head
+    %title Nicole Leigh Photography - Administration
+    = stylesheet_link_tag( "http://yui.yahooapis.com/2.8.1/build/reset/reset-min.css" )
+    = stylesheet_link_tag( "admin" )
+  %body
+    #wrap
+      #header
+        %h1 Administration
+        %ul#admin-navigation
+          %li= link_to 'Dashboard', admin_root_url
+          %li= link_to 'Album Collections', admin_collections_url
+          %li= link_to 'Featured Photos', admin_featured_photographs_url
+          %li= link_to 'Testimonials', admin_testimonials_url
+          %li= link_to 'Links', admin_links_url
+      #main
+        - if flash[:notice]
+          #flash
+            = flash[:notice]
+        = yield

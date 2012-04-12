@@ -1,0 +1,20 @@
+.text-wrap
+  .text-content
+    %h1 Contact Nicole
+    - form_for @message do |f|
+      - unless @message.errors.empty?
+        .errors= error_messages_for "message"
+      .form-row
+        = f.label :from_name, "Your Name"
+        = f.text_field :from_name
+      .form-row
+        = f.label :from_email, "Email Address"
+        = f.text_field :from_email
+      .form-row
+        = f.label :from_phone, "Phone Number (optional)"
+        = f.text_field :from_phone
+      .form-row
+        = f.label :message, "Your Message:"
+        = f.text_area :message
+      .form-actions
+        = f.submit "Send Message"

@@ -1,0 +1,72 @@
+<!doctype HTML>
+%html
+  %head
+    %title Nicole Leigh Photography
+    = javascript_include_tag( "jquery-1.4.2.min.js" )
+    = javascript_include_tag( "jquery.cycle.all.min.js" )
+    = stylesheet_link_tag( "http://yui.yahooapis.com/2.8.1/build/reset/reset-min.css" )
+    = stylesheet_link_tag( "fonts" )
+    = stylesheet_link_tag( "layout" )
+    = stylesheet_link_tag( "colors" )
+    %meta{ :name => "google-site-verification", :content => "w85r-XQ1Id3m6sTOUR7NUTgHbSc3Dvpgmy0SfKk8CAI" }
+    %script{ :type => "text/javascript", :language => "javascript" }
+      \ var _gaq = _gaq || [];
+      \ _gaq.push(['_setAccount', 'UA-12673894-2']);
+      \ _gaq.push(['_setDomainName', 'none']);
+      \ _gaq.push(['_setAllowLinker', true]);
+      \ _gaq.push(['_trackPageview']);
+      \
+      \ (function() {
+      \   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      \   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      \   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      \ })();
+
+  %body
+
+    #wrap
+      #header
+
+        %ul#content-nav
+          %li= link_to "Home", root_url
+          %li= link_to "About", about_url
+          %li= link_to "Testimonials", testimonials_url
+          %li= link_to "Links", links_url
+          %li= link_to "Contact", new_message_url
+
+        #title
+          %h1 Nicole Leigh
+          %h2 Professional Photographer, Bucks County, PA
+
+        %ul#gallery-nav
+          %li.first= link_to "Gallery &raquo;", "#"
+          - @collections.each do |collection|
+            %li= link_to collection.name, collection
+
+      #main
+        
+        = yield
+
+        #home-collections
+          %ul
+            - @collections.each do |collection|
+              %li
+                %h3= link_to collection.name, collection
+                = link_to image_tag( collection.thumbnail.url ), collection 
+        #home-briefs
+          %ul
+            %li.first
+              %h3 Professional Photography
+              %p Specializing in True Life Portraiture. You'll not find canned laughter or a tense smile, only the real smile that comes from pure joy captured forever to be remembered for a lifetime. Years of experience and a style all our own, combined with the knowledge and relaxed style that make capturing an expressive image a reality.
+            %li
+              %h3 My Vision
+              %p Every person is beautiful in their own way. Sometimes what makes a person beautiful is not the obvious things that one would notice at a glance. I make it my goal to find what makes each person beautiful, whether it be a personality trait, a mannerism, or simply a smile and then capture that beauty in my images.
+            %li.last
+              %h3 Special Wedding Memories
+              %p A Wedding should be remembered forever. I specialize in capturing the joy of your special day so that you can look back fondly on those memories with your own unique wedding album. Click the link below to view a sample album in Adobe Reader: 
+              %p= link_to "Download Sample Wedding Album", "/downloads/sample-album.pdf"
+
+      #footer
+        %a#return-to-top{ :href => "#wrap" } Return to top of page
+        %p#copyright Copyright &copy; 2010 &middot; Nicole Leigh. All Rights Reserved
+

@@ -1,0 +1,10 @@
+--- 
+address: 127.0.0.1
+log_file: log/mongrel.log
+port: "7000"
+cwd: /var/www/nicoleleighphotography.com/
+environment: production 
+pid_file: tmp/pids/mongrel.pid
+servers: 1
+user: cbradley 
+group: www-data

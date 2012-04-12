@@ -1,0 +1,47 @@
+$brightest: #FFF
+$brighter: #EEE
+$bright: #CCC
+$dark: #333
+$darker: #222
+$darkest: #000
+
+.text-wrap
+  background: $dark
+.text-content
+  background: $brightest
+  color: #333
+  a
+    color: #03c
+    &:hover
+      color: #666
+
+body,html
+  background: $darker
+  color: $bright
+
+a
+  color: $brighter
+  &:hover
+    color: $brightest
+
+#header
+  #gallery-nav
+    background: $dark
+    a:hover
+      background: $darker
+    li.first 
+      a
+        color: $bright
+      a:hover
+        color: $bright
+        cursor: default
+        background: $dark
+#main
+  #featured-photos
+    background: $dark
+    a
+      background: $darkest
+  #home-collections
+    background: $dark
+  #home-briefs
+    background: $dark

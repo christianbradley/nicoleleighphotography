@@ -1,0 +1,39 @@
+.text-wrap {
+  background: #333333; }
+
+.text-content {
+  background: white;
+  color: #333333; }
+  .text-content a {
+    color: #0033cc; }
+    .text-content a:hover {
+      color: #666666; }
+
+body, html {
+  background: #222222;
+  color: #cccccc; }
+
+a {
+  color: #eeeeee; }
+  a:hover {
+    color: white; }
+
+#header #gallery-nav {
+  background: #333333; }
+  #header #gallery-nav a:hover {
+    background: #222222; }
+  #header #gallery-nav li.first a {
+    color: #cccccc; }
+  #header #gallery-nav li.first a:hover {
+    color: #cccccc;
+    cursor: default;
+    background: #333333; }
+
+#main #featured-photos {
+  background: #333333; }
+  #main #featured-photos a {
+    background: black; }
+#main #home-collections {
+  background: #333333; }
+#main #home-briefs {
+  background: #333333; }

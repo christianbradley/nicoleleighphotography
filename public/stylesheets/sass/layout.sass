@@ -1,0 +1,127 @@
+$fullWidth: 850px
+
+#wrap, #header, #main, #footer
+  position: relative
+
+#wrap
+  margin: 0 auto
+  width: $fullWidth
+
+#header
+  height: 120px
+  
+  #title
+    background: url(/images/logo.png) no-repeat top left
+    text-indent: -1000px
+    text-align: left
+    overflow: hidden
+    height: 80px
+    width: 400px
+
+  #content-nav
+    height: 18px
+    position: absolute
+    top: 5px
+    right: 0
+    li
+      float: left
+      display: block
+      margin-right: 18px
+    a:hover
+      text-decoration: underline
+  #gallery-nav
+    position: relative
+    clear: both
+    overflow: auto
+    li
+      float: left
+      display: block
+      a
+        float: left
+        display: block
+        padding: 9px 18px
+
+#main
+  #featured-photos
+    padding: 5px
+    .image-border
+      border: 20px solid #FFF
+      float:left
+      a
+        float: left
+      img
+        float: left
+  
+  #home-collections
+    margin: 4px 0
+    padding: 5px
+    clear: both
+    overflow: auto
+    ul
+      float: left
+    li
+      float: left
+      display: block
+      margin: 5px
+      h3
+        margin: 0 0 9px 0
+      img
+        border: 5px solid #CCC
+        width: 120px
+        height: 120px
+      a:hover img
+        border: 5px solid #FFF
+  
+  .text-wrap
+    padding: 5px
+  .text-content
+    padding: 18px 15px 36px 15px
+    h1,h2,h3,h4,h5,p,li
+      margin: 0 0 18px 0
+  #page-about
+    .image-wrap
+      padding: 15px
+      border: 1px solid #CCC
+      float: left
+      margin: 0 18px 18px 0
+    .about-nicole
+      width: 60%
+      overflow: auto
+      position: relative
+  #home-briefs
+    margin-bottom: 4px
+    overflow: auto
+    ul
+      float: left
+      li
+        float: left
+        display: block
+        width: 280px
+        h3
+          padding: 0 0 5px 0
+          border-bottom: 1px solid #999
+        h3,p
+          margin: 15px 10px 
+#footer
+  padding: 9px 0
+  clear: both
+  float: left
+  width: 100%
+  #copyright
+    float: right
+    height: 18px
+  #return-to-top
+    float: left
+    height: 18px
+
+.album
+  padding: 20px
+  background: #333
+  margin-bottom: 20px
+
+  h3
+    color: #CCC
+    overflow: auto
+  img
+    margin: 2px 
+    border: 2px solid #FFF

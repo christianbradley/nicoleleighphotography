@@ -1,0 +1,15 @@
+%h2 Featured Photos
+
+%table
+  %thead
+    %tr
+      %th Photograph
+      %th{:colspan => 2} Actions
+  %tbody
+    - @photos.each do |p|
+      %tr
+        %td.featured-photo-thumb= image_tag p.photo.url
+        %td= link_to 'Edit', edit_admin_featured_photograph_url( p )
+        %td= link_to 'Destroy', admin_featured_photograph_url( p ), :confirm => 'Are You Sure?', :method => :delete
+
+%p.record-actions= link_to 'New Featured Photograph', new_admin_featured_photograph_url

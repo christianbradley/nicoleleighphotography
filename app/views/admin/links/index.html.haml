@@ -1,0 +1,23 @@
+%h2 Links
+%table
+  %thead
+    %tr
+      %th Name
+      %th Phone Number
+      %th Email Address
+      %th Address
+      %th Website
+      %th Description
+      %th Actions
+  %tbody
+    - @links.each do |l|
+      %tr
+        %td= l.name
+        %td= l.phone
+        %td= l.email
+        %td= l.address
+        %td= l.website
+        %td= truncate( l.description )
+        %td= link_to 'Edit', edit_admin_link_url( l )
+        %td= link_to 'Delete', admin_link_url(l), :method => :delete, :confirm => "Are you sure?"
+%p.record-actions= link_to 'New Link', new_admin_link_url

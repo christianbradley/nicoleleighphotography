@@ -1,0 +1,17 @@
+%h2 Testimonials
+
+%table
+  %thead
+    %tr
+      %th Name
+      %th Testimony
+      %th{ :colspan => 2 } Actions
+  %tbody
+    - @testimonials.each do |t|
+      %tr
+        %td= t.name
+        %td= truncate( t.testimony )
+        %td= link_to 'Edit', edit_admin_testimonial_url( t )
+        %td= link_to 'Delete', admin_testimonial_url(t), :method => :delete, :confirm => "Are you sure?"
+
+%p.record-actions= link_to 'New Testimonial', new_admin_testimonial_url

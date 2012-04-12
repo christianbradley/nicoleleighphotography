@@ -1,0 +1,22 @@
+%h2 Album Collections
+
+%table
+  %thead
+    %tr
+      %th Name
+      %th Thumbnail Image
+      %th{:colspan => 3} Actions...
+    %tbody
+      - @collections.each do |c|
+        %tr
+          %td= c.name
+          %td.thumbnail-image
+            - if c.thumbnail.exists?
+              = image_tag c.thumbnail.url
+            - else
+              = "No thumbnail uploaded"
+          %td= link_to 'Edit', edit_admin_collection_url( c )
+          %td= link_to 'Delete', admin_collection_url( c ), :confirm => "Are You Sure?", :method => :delete 
+          %td= link_to 'Albums...', admin_collection_albums_url( c )
+
+%p.record-actions= link_to 'New Collection', new_admin_collection_url

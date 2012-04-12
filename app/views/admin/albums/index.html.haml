@@ -1,0 +1,16 @@
+%h1 Picasa Albums in Collection &quot;#{@collection.name}&quot;
+
+%table
+  %thead
+    %tr
+      %th Name
+      %th Picasa URL
+      %th{:colspan => 2 } Actions...
+  %tbody
+    - @collection.albums.each do |a|
+      %tr
+        %th= a.name
+        %th= a.picasa_url
+        %th= link_to 'Edit', edit_admin_collection_album_url( @collection, a )
+        %th= link_to 'Delete', admin_collection_album_url( @collection, a ), :confirm => 'Are You Sure?', :method => :delete 
+%p.record-actions= link_to 'Add an Album to this Collection', new_admin_collection_album_url( @collection )

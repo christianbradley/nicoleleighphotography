@@ -1,0 +1,6 @@
+= javascript_include_tag "page-index.js"
+#featured-photos
+  .image-border
+    - @featured_photos.each do |p| 
+      = link_to image_tag( p.photo.url, :width => 800, :height => 533), collections_url
+

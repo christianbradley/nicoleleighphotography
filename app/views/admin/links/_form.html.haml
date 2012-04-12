@@ -1,0 +1,22 @@
+- form_for [:admin,@link] do |f|
+  - unless @link.errors.empty?
+    .errors= error_messages_for "link"
+  .form-row
+    = f.label :name
+    = f.text_field :name
+  .form-row
+    = f.label :phone
+    = f.text_field :phone
+  .form-row
+    = f.label :email
+    = f.text_field :email
+  .form-row
+    = f.label :website
+    = f.text_field :website
+  .form-row
+    = f.label :address
+    = f.text_area :address
+  .form-row
+    = f.label :description
+    = f.text_area :description
+  = f.submit

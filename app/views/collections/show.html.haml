@@ -1,0 +1,15 @@
+= javascript_include_tag("yoxview/yoxview-init.js")
+= stylesheet_link_tag("yoxview")
+
+.text-wrap
+  .text-content
+    %h1= @collection.name
+    %h2 Albums In this Collection
+
+    #picasa-albums
+      - @collection.albums.each do |album|
+        .album
+          %script{:language=>"javascript",:type=>"text/javascript"}
+            \ $(document).ready( function(){ $("##{album.to_param.downcase}-yoxview").yoxview( { dataUrl: "#{album.picasa_url}" } ) } )
+          %h3= album.name
+          %div{ :id => "#{album.to_param.downcase}-yoxview" }

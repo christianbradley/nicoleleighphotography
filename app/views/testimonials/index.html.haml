@@ -1,0 +1,9 @@
+.text-wrap
+  .text-content
+    %h1 Testimonials
+
+    %ul
+      - @testimonials.each do |testimonial|
+        %li
+          %blockquote= testimonial.testimony
+          %cite= testimonial.name

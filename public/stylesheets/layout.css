@@ -1,0 +1,118 @@
+#wrap, #header, #main, #footer {
+  position: relative; }
+
+#wrap {
+  margin: 0 auto;
+  width: 850px; }
+
+#header {
+  height: 120px; }
+  #header #title {
+    background: url(/images/logo.png) no-repeat top left;
+    text-indent: -1000px;
+    text-align: left;
+    overflow: hidden;
+    height: 80px;
+    width: 400px; }
+  #header #content-nav {
+    height: 18px;
+    position: absolute;
+    top: 5px;
+    right: 0; }
+    #header #content-nav li {
+      float: left;
+      display: block;
+      margin-right: 18px; }
+    #header #content-nav a:hover {
+      text-decoration: underline; }
+  #header #gallery-nav {
+    position: relative;
+    clear: both;
+    overflow: auto; }
+    #header #gallery-nav li {
+      float: left;
+      display: block; }
+      #header #gallery-nav li a {
+        float: left;
+        display: block;
+        padding: 9px 18px; }
+
+#main #featured-photos {
+  padding: 5px; }
+  #main #featured-photos .image-border {
+    border: 20px solid white; }
+    #main #featured-photos .image-border a {
+      float: left; }
+    #main #featured-photos .image-border img {
+      float: left; }
+#main #home-collections {
+  margin: 4px 0;
+  padding: 5px;
+  clear: both;
+  overflow: auto; }
+  #main #home-collections ul {
+    float: left; }
+  #main #home-collections li {
+    float: left;
+    display: block;
+    margin: 5px; }
+    #main #home-collections li h3 {
+      margin: 0 0 9px 0; }
+    #main #home-collections li img {
+      border: 5px solid #cccccc;
+      width: 120px;
+      height: 120px; }
+    #main #home-collections li a:hover img {
+      border: 5px solid white; }
+#main .text-wrap {
+  padding: 5px; }
+#main .text-content {
+  padding: 18px 15px 36px 15px; }
+  #main .text-content h1, #main .text-content h2, #main .text-content h3, #main .text-content h4, #main .text-content h5, #main .text-content p, #main .text-content li {
+    margin: 0 0 18px 0; }
+#main #page-about .image-wrap {
+  padding: 15px;
+  border: 1px solid #cccccc;
+  float: left;
+  margin: 0 18px 18px 0; }
+#main #page-about .about-nicole {
+  width: 60%;
+  overflow: auto;
+  position: relative; }
+#main #home-briefs {
+  margin-bottom: 4px;
+  overflow: auto; }
+  #main #home-briefs ul {
+    float: left; }
+    #main #home-briefs ul li {
+      float: left;
+      display: block;
+      width: 280px; }
+      #main #home-briefs ul li h3 {
+        padding: 0 0 5px 0;
+        border-bottom: 1px solid #999999; }
+      #main #home-briefs ul li h3, #main #home-briefs ul li p {
+        margin: 15px 10px; }
+
+#footer {
+  padding: 9px 0;
+  clear: both;
+  float: left;
+  width: 100%; }
+  #footer #copyright {
+    float: right;
+    height: 18px; }
+  #footer #return-to-top {
+    float: left;
+    height: 18px; }
+
+.album {
+  padding: 20px;
+  background: #333333;
+  margin-bottom: 20px; }
+  .album h3 {
+    color: #cccccc;
+    overflow: auto; }
+  .album img {
+    margin: 2px;
+    border: 2px solid white; }

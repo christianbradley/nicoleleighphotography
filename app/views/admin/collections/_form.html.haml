@@ -1,0 +1,13 @@
+- form_for( [:admin, @collection],  :html => { :multipart => true } ) do |f|
+  - unless @collection.errors.empty?
+    .errors= error_messages_for "collection"
+
+  .form-row
+    = f.label :name
+    = f.text_field :name
+  .form-row
+    = f.label :thumbnail
+    = f.file_field :thumbnail
+    - if @collection.thumbnail.exists?
+      = image_tag @collection.thumbnail.url
+  = f.submit

@@ -1,0 +1,12 @@
+- form_for( [:admin,@collection,@album] ) do |f|
+  - unless @album.errors.empty?
+    .errors= error_messages_for "album"
+
+  .form-row
+    = f.label :name
+    = f.text_field :name
+  .form-row
+    = f.label :picasa_url, "Picasa URL"
+    = f.text_field :picasa_url
+
+  = f.submit

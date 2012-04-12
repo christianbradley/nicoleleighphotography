@@ -1,0 +1,578 @@
+
+--- 
+albums: 
+  columns: 
+  - id
+  - name
+  - created_at
+  - updated_at
+  - collection_id
+  - picasa_url
+  records: 
+  - - "1"
+    - Children
+    - 2010-10-11 22:04:37
+    - 2010-10-11 22:04:38
+    - "4"
+    - http://picasaweb.google.com/MissNicoleLeigh/Children
+  - - "2"
+    - Child Births
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "4"
+    - http://picasaweb.google.com/MissNicoleLeigh/ChildBirths
+  - - "3"
+    - Commercial
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "5"
+    - http://picasaweb.google.com/MissNicoleLeigh/Commercial
+  - - "4"
+    - Carnie Folk
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "6"
+    - http://picasaweb.google.com/MissNicoleLeigh/CarnieFolk
+  - - "5"
+    - Pin-Ups for Pit Bulls
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "6"
+    - http://picasaweb.google.com/MissNicoleLeigh/PinUpsforPitBulls
+  - - "6"
+    - Zombie Land
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "6"
+    - http://picasaweb.google.com/MissNicoleLeigh/ZombieLand
+  - - "7"
+    - Taryn and Matt, Crystal Point
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/TarynandMattCrystalPoint
+  - - "8"
+    - Jamie and Jonathon, Cairnwood Estate
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:31:21
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/JamieAndJonathonCairnwoodEstate
+  - - "9"
+    - Danielle and Brad, Rittenhouse Hotel
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/DanielleandBradRittenhouseHotel
+  - - "10"
+    - Lauren and Dean, Congress Hall
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/LaurenandDeanCongressHall
+  - - "11"
+    - Missy and Andy, Knowlton Mansion
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/MissyandAndyKnowltonMansion
+  - - "12"
+    - Tobi and Alex, Curtis Center
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/TobiandAlexCurtisCenter
+  - - "13"
+    - Stephanie and Eric, Villanova
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/StephanieandEricVillanova
+  - - "14"
+    - Tyler Arboretum
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/TylerArboretum
+  - - "15"
+    - Glen Forde
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/GlenForde
+  - - "16"
+    - Cairnwood Estate
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/CairnwoodEstate
+  - - "17"
+    - Kelly and Ethan, Pearl S. Buck House
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/KellyandEthanPearlSBuckHouse
+  - - "18"
+    - Jasna Polana
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/JasnaPolana
+  - - "19"
+    - Jersey Shore Weddings
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/JerseyShoreWeddings
+  - - "20"
+    - Christina and Michael, Independence Visitors Center
+    - 2010-10-11 22:04:38
+    - 2010-10-12 20:14:17
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/ChristinaAndMichaelIndependenceVistitorsCenter
+  - - "21"
+    - Dennis and Tom, Top of the Tower
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/DennisandTomTopoftheTower
+  - - "22"
+    - Maggie and Dutch, Perryville
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/MaggieandDutchPerryville
+  - - "23"
+    - Philadelphia Weddings
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/PhiladelphiaWeddings
+  - - "24"
+    - Doylestown Weddings
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/DoylestownWeddings
+  - - "25"
+    - Waterworks
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "1"
+    - http://picasaweb.google.com/MissNicoleLeigh/Waterworks
+  - - "26"
+    - Engagement
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "2"
+    - http://picasaweb.google.com/MissNicoleLeigh/Engagement
+  - - "27"
+    - Maternity
+    - 2010-10-11 22:04:38
+    - 2010-10-11 22:04:38
+    - "3"
+    - http://picasaweb.google.com/MissNicoleLeigh/Maternity
+
+--- 
+testimonials: 
+  columns: 
+  - id
+  - name
+  - testimony
+  - created_at
+  - updated_at
+  records: 
+  - - "3"
+    - Mallory and Nick
+    - "I think if you choose Nicole Leigh for your wedding photographer you will not be disappointed!  One of the things I liked most about working with Nicole was her personality!  I met her the first time at a Starbucks in Doylestown to discuss a wedding package and to see some of her work.  She was very easy to talk to and made me feel very at ease about the whole thing!  The second time I met her was with my fianc\xC3\xA9 for our engagement photos!  For this we did about an hour long \"photo shoot\" in downtown Doylestown and had so much fun!  I think we laughed the entire time and Nicole got some incredible photos- including one at the end of me with ice cream all over my face!  Nothing about it was awkward (something my fianc\xC3\xA9 and I were afraid of) and we found quickly that we could just be ourselves around her.  The wedding went off without a glitch as well!  The whole wedding party had a fun time taking our pre-reception photos.  She captured all the important things about our ceremony and reception, but she was not in the way either-- something that I have noticed with other photographers at other weddings I've been to!-- nor did she take us away from the party for too long!    \r\n\
+      \r\n\
+      I'm sure you have looked at all the photos on her website and have seen the work she does.  They are in no way your \"typical wedding photos!\"  Nicole is incredibly creative and took photos that no one else would have thought of!  Everything was so beautiful and we are so glad to have these photos to remember our wedding.  All my family and friends agree.  If I had to use one word to describe Nicole's photos from our wedding, it would be \"elegant.\"  She made my husband and I look and feel like king and queen!  I'm sure you've looked at Nicole's website, but she also has many pictures on her facebook page (including some from my wedding!)  If you've got a facebook account, it's definitely worth checking out.  \r\n\
+      \r\n\
+      Best of luck in your wedding planning! \r\n\
+      \r\n\
+      ~Mallory and Nick July 25th, 2009 \r\n"
+    - 2010-10-21 13:17:24
+    - 2010-10-21 13:17:24
+  - - "4"
+    - Jamie and Brian
+    - "Nicole really captured the essence of our wedding!  We wanted it to be more of a photo documentary and she nailed it!!!! Very pleasant and professional to work with! Thank you so much! \xE2\x99\xA5\r\n\
+      \r\n\
+      Jaime and Brian Schwartz,  June 2008\r\n"
+    - 2010-10-21 13:18:27
+    - 2010-10-21 13:18:27
+  - - "5"
+    - Carrie and Greg
+    - |-
+      Nicole was the perfect wedding photographer--she coordinated when she needed to, adjusted her plans when necessary, and still managed to blend into the crowd so that people were comfortable being themselves (giving us some great candid shots!). Most of all, she tried to make sure that we got the shots we wanted--we wanted to do our bridal party pics at Love Park, but the wedding started late so it was twilight by the time we got there, but she took pictures anyway that came out great! In fact, ALL of our pictures are wonderful--we've gotten nothing but compliments on them, and they look like they could be used in a magazine! I had such a hard time choosing some for our album out of the thousand or so we received. The great pictures we have of our wedding just make me want to do it all again!
+      
+      Carrie and Greg - Sept 2010
+    - 2010-10-21 13:32:48
+    - 2010-10-21 13:32:48
+  - - "6"
+    - The Sager Family
+    - "I can't thank you both enough for the wonderful job you did taking pictures at my daughter's wedding. You were so helpful in so many ways it's hard to list, but I am especially grateful for the following: \r\n\
+      \xE2\x80\xA2Your helpfulness in all aspects of the wedding (helping us dress Chris, helping with the boutonni\xC3\xA8res, grabbing the aisle runners, etc. Etc. Etc.) \r\n\
+      \xE2\x80\xA2Your kindness and patience with our guests even when they were butting in on your picture taking. \r\n\
+      \xE2\x80\xA2Your flexibility with my family's wishes for alternate pictures. \r\n\
+      \xE2\x80\xA2Your prompt arrival and calm professional demeanor throughout the day. \r\n\
+      \r\n\
+      The Sager Family - October 2009\r\n"
+    - 2010-10-21 13:39:17
+    - 2010-10-21 13:39:17
+
+--- 
+links: 
+  columns: 
+  - id
+  - name
+  - phone
+  - email
+  - website
+  - address
+  - description
+  - created_at
+  - updated_at
+  records: 
+  - - "1"
+    - Dolbow Video Productions, Inc.
+    - "215-639-6363 ext 102 "
+    - mikedolbow@dolbowvideo.com
+    - http://www.dolbowvideo.com/
+    - |-
+      2213 Galloway Rd.
+      Bensalem, PA 19020
+    - Brilliant, non-invasive wedding and event videography.
+    - 2010-10-12 00:17:58
+    - 2010-10-21 13:25:56
+  - - "2"
+    - "Do you need me? Cleaning Professionals "
+    - "267-994-1552 "
+    - renee@doyouneedme.biz
+    - ""
+    - ""
+    - |
+      Everyone seems to worry about having your home clean the morning of the big day for pictures. Why not leave the cleaning up to these guys so you can concentrate the important stuff, like a bridal party of ladies sharing the bathroom to apply make-up.
+      These guys are professional and thorough. Greatly recommended!
+
+    - 2010-10-18 01:06:04
+    - 2010-10-18 01:06:04
+  - - "5"
+    - Serenity Day Spa and Wellness Center
+    - 215-230-3487
+    - ""
+    - www.serenity-dayspa.com
+    - |
+      64 East Swamp Road
+      Doylestown, PA 18901
+
+    - |
+      Personally, I believe this to be the most amazing spa I've ever been to! Awesome relaxing atmosphere, people, and services!Treat yourself and your bridesmaids to a pre- wedding spa day!!
+
+    - 2010-10-21 13:21:20
+    - 2010-10-21 13:21:20
+  - - "6"
+    - Doylestown Flowers and Gifts
+    - 215-348-2666 | 1-800-225-7025
+    - doylestownflowersandgifts@comcast.net
+    - http://www.doylestownflowersandgifts.com/
+    - |-
+      15 Clemens Rd
+      Doylestown, PA 18901
+    - |
+      One of the most creative bucks county florists. They are always a pleasure to work with! They have a special touch that sets them apart from the others! Their staff of expert floral specialists would like to help you make your wedding day unforgettable.
+
+    - 2010-10-21 13:23:45
+    - 2010-10-26 16:48:33
+  - - "7"
+    - Dr. Jamie Buesing, Plumbstead Wellness Center
+    - 215-345-4323
+    - info@youhealyou.com
+    - www.youhealyou.com
+    - |-
+      4295 Point Pleasant Pike & Old Easton Road
+      Danboro, PA 18916-0368
+    - |
+      Want to look your best for your special day? This is the guy to see! His  "bridal bootcamp" is a unique program to help you look and feel your best on a fast track!  A mixture of nutrition, fitness, and personalized care.
+      
+      He is simply the best!
+
+    - 2010-10-21 13:28:12
+    - 2010-10-21 13:28:12
+  - - "8"
+    - Bigg Romeo, Band
+    - ""
+    - info@biggromeo.com
+    - www.biggromeo.com
+    - ""
+    - |
+      Performing since 1993, Bigg Romeo has a wealth of knowledge at your disposal. And of course the music is nothing less than spectacular. All performers have extensive, professional backgrounds, and can play songs from numerous eras and genres. Bigg Romeo expertly adapts to your musical preferences. No wonder Bigg Romeo was voted "BEST OF PHILLY" by Philadelphia Magazine's Readers Poll.
+
+    - 2010-10-21 13:30:25
+    - 2010-10-21 13:30:25
+  - - "9"
+    - "QT Relocation Specialists, LLC "
+    - 215-538-1745
+    - ""
+    - ""
+    - |
+      2035 Esten Rd.
+      Quakertown, PA 18951
+
+    - Buying a new love shack? Moving stinks! These guys make it easy and affordable!
+    - 2010-10-21 13:31:52
+    - 2010-10-21 13:31:52
+
+--- 
+messages: 
+  columns: 
+  - id
+  - from_name
+  - from_email
+  - subject
+  - message
+  - from_phone
+  - created_at
+  - updated_at
+  records: 
+  - - "1"
+    - Christian
+    - christianbradley@gmail.com
+    - 
+    - Hey!
+    - 610.203.4239
+    - 2010-10-12 00:19:48
+    - 2010-10-12 00:19:48
+  - - "2"
+    - Christian Bradley
+    - christianbradley@gmail.com
+    - 
+    - Test
+    - 610 203 4239
+    - 2010-10-12 00:51:36
+    - 2010-10-12 00:51:36
+  - - "3"
+    - nicole
+    - missnicoleleigh@gmail.com
+    - 
+    - sddsd
+    - "2678844068"
+    - 2010-10-14 13:09:07
+    - 2010-10-14 13:09:07
+  - - "4"
+    - nicole
+    - missnicoleleigh@gmail.com
+    - 
+    - test
+    - "2678844068"
+    - 2010-10-22 11:47:25
+    - 2010-10-22 11:47:25
+  - - "5"
+    - nicole
+    - missnicoleleigh@gmail.com
+    - 
+    - ghetto
+    - "2678844068"
+    - 2010-10-27 22:30:52
+    - 2010-10-27 22:30:52
+
+--- 
+collections: 
+  columns: 
+  - id
+  - name
+  - created_at
+  - updated_at
+  - thumbnail_file_name
+  - thumbnail_content_type
+  - thumbnail_file_size
+  records: 
+  - - "1"
+    - Weddings
+    - 2010-10-11 22:03:37
+    - 2010-10-12 18:17:44
+    - gallery-weddings.jpg
+    - image/jpeg
+    - "5235"
+  - - "2"
+    - Engagements
+    - 2010-10-11 22:03:37
+    - 2010-10-12 18:17:57
+    - gallery-engagement.jpg
+    - image/jpeg
+    - "6047"
+  - - "3"
+    - Maternity
+    - 2010-10-11 22:03:37
+    - 2010-10-12 18:18:09
+    - gallery-maternity.jpg
+    - image/jpeg
+    - "5365"
+  - - "4"
+    - Children
+    - 2010-10-11 22:03:37
+    - 2010-10-12 18:18:24
+    - gallery-children.jpg
+    - image/jpeg
+    - "5834"
+  - - "5"
+    - Commercial
+    - 2010-10-11 22:03:37
+    - 2010-10-12 18:18:38
+    - gallery-commercial.jpg
+    - image/jpeg
+    - "6640"
+  - - "6"
+    - Themes
+    - 2010-10-11 22:03:37
+    - 2010-10-28 21:02:32
+    - sean.jpg
+    - image/pjpeg
+    - "942171"
+
+--- 
+featured_photographs: 
+  columns: 
+  - id
+  - photo_file_name
+  - photo_file_size
+  - photo_content_type
+  - created_at
+  - updated_at
+  records: 
+  - - "1"
+    - 2439.jpg
+    - "3796873"
+    - image/pjpeg
+    - 2010-10-12 18:43:53
+    - 2010-11-17 14:19:35
+  - - "2"
+    - 0002.jpg
+    - "536227"
+    - image/jpeg
+    - 2010-10-12 18:48:42
+    - 2010-10-12 18:48:42
+  - - "3"
+    - 0003.jpg
+    - "429482"
+    - image/jpeg
+    - 2010-10-12 18:51:06
+    - 2010-10-12 18:51:06
+  - - "4"
+    - 0004.jpg
+    - "432919"
+    - image/jpeg
+    - 2010-10-12 18:51:38
+    - 2010-10-12 18:51:38
+  - - "6"
+    - 0005.jpg
+    - "467682"
+    - image/pjpeg
+    - 2010-10-13 00:00:21
+    - 2010-10-13 00:00:21
+  - - "7"
+    - 0006.jpg
+    - "373517"
+    - image/pjpeg
+    - 2010-10-13 00:01:01
+    - 2010-10-13 00:01:01
+  - - "8"
+    - 0007.jpg
+    - "290016"
+    - image/pjpeg
+    - 2010-10-13 00:01:33
+    - 2010-10-13 00:01:33
+  - - "9"
+    - 0008.jpg
+    - "297730"
+    - image/pjpeg
+    - 2010-10-13 00:01:58
+    - 2010-10-13 00:01:58
+  - - "10"
+    - 0009.jpg
+    - "414940"
+    - image/pjpeg
+    - 2010-10-13 00:02:28
+    - 2010-10-13 00:02:28
+  - - "11"
+    - 0010.jpg
+    - "382251"
+    - image/pjpeg
+    - 2010-10-13 00:02:52
+    - 2010-10-13 00:02:52
+  - - "12"
+    - 0011.jpg
+    - "458440"
+    - image/pjpeg
+    - 2010-10-13 00:03:43
+    - 2010-10-13 00:03:43
+  - - "13"
+    - 0012.jpg
+    - "556424"
+    - image/pjpeg
+    - 2010-10-13 00:04:17
+    - 2010-10-13 00:04:17
+  - - "14"
+    - 0014.jpg
+    - "522969"
+    - image/pjpeg
+    - 2010-10-13 00:05:00
+    - 2010-10-13 00:05:00
+  - - "15"
+    - 0013.jpg
+    - "497854"
+    - image/pjpeg
+    - 2010-10-13 00:05:30
+    - 2010-10-13 00:05:30
+  - - "16"
+    - 0015.jpg
+    - "491661"
+    - image/pjpeg
+    - 2010-10-13 00:06:20
+    - 2010-10-13 00:06:20
+  - - "17"
+    - 0016.jpg
+    - "530712"
+    - image/pjpeg
+    - 2010-10-13 00:06:45
+    - 2010-10-13 00:06:45
+  - - "18"
+    - 0017.jpg
+    - "283672"
+    - image/pjpeg
+    - 2010-10-13 00:07:07
+    - 2010-10-13 00:07:07
+  - - "19"
+    - 0018.jpg
+    - "372692"
+    - image/pjpeg
+    - 2010-10-13 00:07:33
+    - 2010-10-13 00:07:33
+  - - "20"
+    - 0019.jpg
+    - "379841"
+    - image/pjpeg
+    - 2010-10-13 00:08:20
+    - 2010-10-13 00:08:20
+  - - "21"
+    - 0020.jpg
+    - "341348"
+    - image/pjpeg
+    - 2010-10-13 00:09:14
+    - 2010-10-13 00:09:14
+  - - "22"
+    - 4815sm.jpg
+    - "439638"
+    - image/pjpeg
+    - 2010-10-15 12:15:34
+    - 2010-10-15 12:15:34
+  - - "23"
+    - 4866sm.jpg
+    - "659738"
+    - image/pjpeg
+    - 2010-10-15 12:16:33
+    - 2010-10-15 12:16:33
+  - - "24"
+    - 2163.jpg
+    - "517979"
+    - image/pjpeg
+    - 2010-11-12 12:36:28
+    - 2010-11-12 12:36:28

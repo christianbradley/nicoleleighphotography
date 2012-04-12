@@ -1,0 +1,9 @@
+- form_for( [:admin,@photo], :html => {:multipart => true} ) do |f|
+  - unless @photo.errors.empty?
+    .errors= error_messages_for "photo"
+  .form-row
+    = f.label :photo, "Image (800x533)"
+    = f.file_field :photo
+    - if @photo.photo.exists?
+      = image_tag @photo.photo.url
+  = f.submit
